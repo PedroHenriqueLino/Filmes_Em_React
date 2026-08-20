@@ -29,15 +29,13 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: '/',
         element: <Header />
       },
-
       {
         path: '/filmes',
         element: <FilmesPage />
       },
-
       {
         path: '/favoritas',
         element: <FavaritasPage />
@@ -50,10 +48,11 @@ const router = createBrowserRouter([
         path: '/filmes/:id',
         element: <SelectFilmePage />
       }
-
     ]
   }
-])
+], {
+  basename: '/Filmes-em-React'
+});
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
