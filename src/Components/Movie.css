@@ -1,0 +1,203 @@
+.movie-container {
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+
+.highlights {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+
+
+    border-radius: 15px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+
+    color: white;
+
+    transition: background-image 0.8s ease;
+}
+
+/* Escurece a imagem */
+.highlights::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.95),
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.2));
+
+    z-index: 0;
+}
+
+.highlights>* {
+    padding-left: 4rem;
+    z-index: 1;
+}
+
+.banner {
+    position: absolute;
+    top: 20px;
+    left: 4rem;
+
+    background: #f5b700;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        margin-top: 2rem;
+        width: 220px;
+        padding: 10px 0px 10px 0px;
+        border-radius: 10px;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        background: #f5b700;
+
+        cursor: pointer;
+    }
+}
+
+.movie-meta {
+    display: flex;
+    gap: 50px;
+
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+
+
+.dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.dots span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+
+
+    transition: all 0.3s ease;
+}
+
+.dots span.active {
+    background-color: #fabc01;
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner {
+        display: none;
+    }
+
+    .highlights>* {
+        padding-left: 2rem;
+        z-index: 1;
+    }
+
+
+
+
+    .banner-info {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 1.5rem;
+
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 2rem;
+            width: 144px;
+            padding: 10px 0px 10px 0px;
+            border-radius: 10px;
+            border: none;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            background: #f5b700;
+
+            cursor: pointer;
+        }
+    }
+
+    .movie-meta {
+        display: flex;
+        gap: 50px;
+
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .banner-info {
+
+
+        h1 {
+            font-size: 1.5rem;
+
+        }
+
+        p {
+            font-size: .8rem;
+        }
+
+        button {
+
+
+
+
+            font-size: 1rem;
+
+
+
+
+
+        }
+    }
+
+    .movie-meta {
+
+        gap: 20px;
+
+
+    }
+}

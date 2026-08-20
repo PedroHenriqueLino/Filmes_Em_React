@@ -1,0 +1,733 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Interestelar",
+            "year": 2014,
+            "genre": [
+                "Ficção Científica",
+                "Drama"
+            ],
+            "rating": 8.7,
+            "duration": "2h 49min",
+            "director": "Christopher Nolan",
+            "image": "https://picsum.photos/seed/interestelar/500/750",
+            "description": "Uma equipe de exploradores viaja através de um buraco de minhoca em busca de um novo lar para a humanidade."
+        },
+        {
+            "id": 2,
+            "title": "O Cavaleiro das Trevas",
+            "year": 2008,
+            "genre": [
+                "Ação",
+                "Crime",
+                "Drama"
+            ],
+            "rating": 9.0,
+            "duration": "2h 32min",
+            "director": "Christopher Nolan",
+            "image": "https://picsum.photos/seed/cavaleiro-das-trevas/500/750",
+            "description": "Batman enfrenta o Coringa, um criminoso que mergulha Gotham em uma onda de caos."
+        },
+        {
+            "id": 3,
+            "title": "A Origem",
+            "year": 2010,
+            "genre": [
+                "Ação",
+                "Ficção Científica",
+                "Thriller"
+            ],
+            "rating": 8.8,
+            "duration": "2h 28min",
+            "director": "Christopher Nolan",
+            "image": "https://picsum.photos/seed/a-origem/500/750",
+            "description": "Um especialista em invadir sonhos recebe a missão de implantar uma ideia na mente de um alvo."
+        },
+        {
+            "id": 4,
+            "title": "Homem-Aranha: Sem Volta para Casa",
+            "year": 2021,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Fantasia"
+            ],
+            "rating": 8.2,
+            "duration": "2h 28min",
+            "director": "Jon Watts",
+            "image": "https://picsum.photos/seed/spiderman-no-way-home/500/750",
+            "description": "Peter Parker enfrenta as consequências de ter sua identidade revelada e acaba cruzando o multiverso."
+        },
+        {
+            "id": 5,
+            "title": "Vingadores: Ultimato",
+            "year": 2019,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 8.3,
+            "duration": "3h 1min",
+            "director": "Anthony Russo e Joe Russo",
+            "image": "https://picsum.photos/seed/vingadores-ultimato/500/750",
+            "description": "Os Vingadores restantes tentam reverter as consequências do estalar de dedos de Thanos."
+        },
+        {
+            "id": 6,
+            "title": "Corra!",
+            "year": 2017,
+            "genre": [
+                "Terror",
+                "Mistério",
+                "Thriller"
+            ],
+            "rating": 7.6,
+            "duration": "1h 44min",
+            "director": "Jordan Peele",
+            "image": "https://picsum.photos/seed/corra/500/750",
+            "description": "Um jovem visita a família de sua namorada e descobre que existe algo muito estranho naquele lugar."
+        },
+        {
+            "id": 7,
+            "title": "Invocação do Mal",
+            "year": 2013,
+            "genre": [
+                "Terror",
+                "Thriller"
+            ],
+            "rating": 7.5,
+            "duration": "1h 52min",
+            "director": "James Wan",
+            "image": "https://picsum.photos/seed/invocacao-do-mal/500/750",
+            "description": "Investigadores paranormais ajudam uma família aterrorizada por uma presença sobrenatural."
+        },
+        {
+            "id": 8,
+            "title": "Duna",
+            "year": 2021,
+            "genre": [
+                "Ficção Científica",
+                "Aventura",
+                "Drama"
+            ],
+            "rating": 8.0,
+            "duration": "2h 35min",
+            "director": "Denis Villeneuve",
+            "image": "https://picsum.photos/seed/duna/500/750",
+            "description": "Paul Atreides precisa viajar para o planeta mais perigoso do universo para proteger sua família."
+        },
+        {
+            "id": 9,
+            "title": "O Senhor dos Anéis: A Sociedade do Anel",
+            "year": 2001,
+            "genre": [
+                "Aventura",
+                "Fantasia",
+                "Drama"
+            ],
+            "rating": 8.9,
+            "duration": "2h 58min",
+            "director": "Peter Jackson",
+            "image": "https://picsum.photos/seed/senhor-dos-aneis/500/750",
+            "description": "Frodo recebe a missão de destruir o Um Anel antes que ele caia nas mãos de Sauron."
+        },
+        {
+            "id": 10,
+            "title": "John Wick",
+            "year": 2014,
+            "genre": [
+                "Ação",
+                "Thriller",
+                "Crime"
+            ],
+            "rating": 7.4,
+            "duration": "1h 41min",
+            "director": "Chad Stahelski",
+            "image": "https://picsum.photos/seed/john-wick/500/750",
+            "description": "Um lendário assassino retorna à ação depois que criminosos invadem sua casa."
+        },
+        {
+            "id": 11,
+            "title": "Parasita",
+            "year": 2019,
+            "genre": [
+                "Drama",
+                "Thriller"
+            ],
+            "rating": 8.5,
+            "duration": "2h 12min",
+            "director": "Bong Joon-ho",
+            "image": "https://picsum.photos/seed/parasita/500/750",
+            "description": "Uma família pobre começa a se infiltrar na vida de uma família rica."
+        },
+        {
+            "id": 12,
+            "title": "Toy Story",
+            "year": 1995,
+            "genre": [
+                "Animação",
+                "Aventura",
+                "Comédia"
+            ],
+            "rating": 8.0,
+            "duration": "1h 21min",
+            "director": "John Lasseter",
+            "image": "https://picsum.photos/seed/toy-story/500/750",
+            "description": "Brinquedos ganham vida quando seus donos não estão por perto."
+        },
+        {
+            "id": 13,
+            "title": "Matrix",
+            "year": 1999,
+            "genre": [
+                "Ação",
+                "Ficção Científica"
+            ],
+            "rating": 8.7,
+            "duration": "2h 16min",
+            "director": "Lana Wachowski e Lilly Wachowski",
+            "image": "https://picsum.photos/seed/matrix/500/750",
+            "description": "Um hacker descobre que a realidade que conhece é uma elaborada simulação."
+        },
+        {
+            "id": 14,
+            "title": "Gladiador",
+            "year": 2000,
+            "genre": [
+                "Ação",
+                "Drama",
+                "Aventura"
+            ],
+            "rating": 8.5,
+            "duration": "2h 35min",
+            "director": "Ridley Scott",
+            "image": "https://picsum.photos/seed/gladiador/500/750",
+            "description": "Um general romano busca vingança depois de ser traído pelo imperador."
+        },
+        {
+            "id": 15,
+            "title": "Titanic",
+            "year": 1997,
+            "genre": [
+                "Drama",
+                "Romance"
+            ],
+            "rating": 7.9,
+            "duration": "3h 14min",
+            "director": "James Cameron",
+            "image": "https://picsum.photos/seed/titanic/500/750",
+            "description": "Um romance nasce a bordo do famoso navio Titanic."
+        },
+        {
+            "id": 16,
+            "title": "Avatar",
+            "year": 2009,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 7.6,
+            "duration": "2h 42min",
+            "director": "James Cameron",
+            "image": "https://picsum.photos/seed/avatar/500/750",
+            "description": "Um ex-fuzileiro é enviado para Pandora e acaba se envolvendo com o povo Na'vi."
+        },
+        {
+            "id": 17,
+            "title": "Coringa",
+            "year": 2019,
+            "genre": [
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "rating": 8.2,
+            "duration": "2h 2min",
+            "director": "Todd Phillips",
+            "image": "https://picsum.photos/seed/coringa/500/750",
+            "description": "Um homem marginalizado começa uma transformação que o leva a se tornar o Coringa."
+        },
+        {
+            "id": 18,
+            "title": "Batman Begins",
+            "year": 2005,
+            "genre": [
+                "Ação",
+                "Crime",
+                "Drama"
+            ],
+            "rating": 8.2,
+            "duration": "2h 20min",
+            "director": "Christopher Nolan",
+            "image": "https://picsum.photos/seed/batman-begins/500/750",
+            "description": "Bruce Wayne começa sua jornada para se tornar Batman."
+        },
+        {
+            "id": 19,
+            "title": "Homem de Ferro",
+            "year": 2008,
+            "genre": [
+                "Ação",
+                "Ficção Científica",
+                "Aventura"
+            ],
+            "rating": 7.6,
+            "duration": "2h 6min",
+            "director": "Jon Favreau",
+            "image": "https://picsum.photos/seed/homem-de-ferro/500/750",
+            "description": "Tony Stark constrói uma poderosa armadura e se transforma no Homem de Ferro."
+        },
+        {
+            "id": 20,
+            "title": "Pantera Negra",
+            "year": 2018,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 7.4,
+            "duration": "2h 14min",
+            "director": "Ryan Coogler",
+            "image": "https://picsum.photos/seed/pantera-negra/500/750",
+            "description": "T'Challa precisa proteger Wakanda de uma ameaça ao seu reino."
+        },
+        {
+            "id": 21,
+            "title": "Guardiões da Galáxia",
+            "year": 2014,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Comédia"
+            ],
+            "rating": 8.0,
+            "duration": "2h 1min",
+            "director": "James Gunn",
+            "image": "https://picsum.photos/seed/guardioes-galaxia/500/750",
+            "description": "Um grupo improvável de heróis se une para proteger a galáxia."
+        },
+        {
+            "id": 22,
+            "title": "Deadpool",
+            "year": 2016,
+            "genre": [
+                "Ação",
+                "Comédia"
+            ],
+            "rating": 7.6,
+            "duration": "1h 48min",
+            "director": "Tim Miller",
+            "image": "https://picsum.photos/seed/deadpool/500/750",
+            "description": "Um mercenário ganha poderes extraordinários e busca vingança."
+        },
+        {
+            "id": 23,
+            "title": "Mad Max: Estrada da Fúria",
+            "year": 2015,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 8.1,
+            "duration": "2h",
+            "director": "George Miller",
+            "image": "https://picsum.photos/seed/mad-max/500/750",
+            "description": "Max se junta a Furiosa em uma fuga frenética por um mundo pós-apocalíptico."
+        },
+        {
+            "id": 24,
+            "title": "O Exorcista",
+            "year": 1973,
+            "genre": [
+                "Terror"
+            ],
+            "rating": 7.7,
+            "duration": "2h 12min",
+            "director": "William Friedkin",
+            "image": "https://picsum.photos/seed/exorcista/500/750",
+            "description": "Uma jovem começa a apresentar comportamentos inexplicáveis e sua mãe procura ajuda."
+        },
+        {
+            "id": 25,
+            "title": "Um Lugar Silencioso",
+            "year": 2018,
+            "genre": [
+                "Terror",
+                "Ficção Científica",
+                "Drama"
+            ],
+            "rating": 7.5,
+            "duration": "1h 30min",
+            "director": "John Krasinski",
+            "image": "https://picsum.photos/seed/lugar-silencioso/500/750",
+            "description": "Uma família precisa sobreviver em silêncio para não ser atacada por criaturas."
+        },
+        {
+            "id": 26,
+            "title": "It: A Coisa",
+            "year": 2017,
+            "genre": [
+                "Terror",
+                "Drama"
+            ],
+            "rating": 7.2,
+            "duration": "2h 15min",
+            "director": "Andy Muschietti",
+            "image": "https://picsum.photos/seed/it-a-coisa/500/750",
+            "description": "Um grupo de crianças enfrenta uma criatura que assume a forma de um palhaço."
+        },
+        {
+            "id": 27,
+            "title": "Annabelle",
+            "year": 2014,
+            "genre": [
+                "Terror",
+                "Thriller"
+            ],
+            "rating": 5.8,
+            "duration": "1h 39min",
+            "director": "John R. Leonetti",
+            "image": "https://picsum.photos/seed/annabelle/500/750",
+            "description": "Uma boneca aparentemente inocente se torna o centro de acontecimentos sobrenaturais."
+        },
+        {
+            "id": 28,
+            "title": "Sorria",
+            "year": 2022,
+            "genre": [
+                "Terror",
+                "Mistério"
+            ],
+            "rating": 6.5,
+            "duration": "1h 55min",
+            "director": "Parker Finn",
+            "image": "https://picsum.photos/seed/sorria/500/750",
+            "description": "Uma médica começa a vivenciar acontecimentos assustadores depois de presenciar um evento traumático."
+        },
+        {
+            "id": 29,
+            "title": "A Freira",
+            "year": 2018,
+            "genre": [
+                "Terror",
+                "Mistério"
+            ],
+            "rating": 5.3,
+            "duration": "1h 36min",
+            "director": "Corin Hardy",
+            "image": "https://picsum.photos/seed/a-freira/500/750",
+            "description": "Um padre e uma noviça investigam a morte de uma freira em um mosteiro isolado."
+        },
+        {
+            "id": 30,
+            "title": "O Iluminado",
+            "year": 1980,
+            "genre": [
+                "Terror",
+                "Drama"
+            ],
+            "rating": 8.2,
+            "duration": "2h 26min",
+            "director": "Stanley Kubrick",
+            "image": "https://picsum.photos/seed/iluminado/500/750",
+            "description": "Um escritor começa a perder o controle enquanto trabalha em um hotel isolado."
+        },
+        {
+            "id": 31,
+            "title": "Forrest Gump",
+            "year": 1994,
+            "genre": [
+                "Drama",
+                "Romance"
+            ],
+            "rating": 8.5,
+            "duration": "2h 22min",
+            "director": "Robert Zemeckis",
+            "image": "https://picsum.photos/seed/forrest-gump/500/750",
+            "description": "A vida extraordinária de um homem simples que presencia grandes acontecimentos históricos."
+        },
+        {
+            "id": 32,
+            "title": "Clube da Luta",
+            "year": 1999,
+            "genre": [
+                "Drama",
+                "Thriller"
+            ],
+            "rating": 8.4,
+            "duration": "2h 19min",
+            "director": "David Fincher",
+            "image": "https://picsum.photos/seed/clube-da-luta/500/750",
+            "description": "Um homem insatisfeito com sua vida encontra uma forma inesperada de escapar da rotina."
+        },
+        {
+            "id": 33,
+            "title": "O Poderoso Chefão",
+            "year": 1972,
+            "genre": [
+                "Crime",
+                "Drama"
+            ],
+            "rating": 9.2,
+            "duration": "2h 55min",
+            "director": "Francis Ford Coppola",
+            "image": "https://picsum.photos/seed/poderoso-chefao/500/750",
+            "description": "A história de uma poderosa família envolvida no crime organizado."
+        },
+        {
+            "id": 34,
+            "title": "Os Bons Companheiros",
+            "year": 1990,
+            "genre": [
+                "Crime",
+                "Drama"
+            ],
+            "rating": 8.5,
+            "duration": "2h 25min",
+            "director": "Martin Scorsese",
+            "image": "https://picsum.photos/seed/bons-companheiros/500/750",
+            "description": "Um jovem entra para o mundo do crime e começa a subir dentro da máfia."
+        },
+        {
+            "id": 35,
+            "title": "O Lobo de Wall Street",
+            "year": 2013,
+            "genre": [
+                "Crime",
+                "Drama",
+                "Comédia"
+            ],
+            "rating": 8.0,
+            "duration": "3h",
+            "director": "Martin Scorsese",
+            "image": "https://picsum.photos/seed/lobo-wall-street/500/750",
+            "description": "Um corretor constrói um império financeiro baseado em ambição, excessos e golpes."
+        },
+        {
+            "id": 36,
+            "title": "Whiplash",
+            "year": 2014,
+            "genre": [
+                "Drama",
+                "Música"
+            ],
+            "rating": 8.5,
+            "duration": "1h 47min",
+            "director": "Damien Chazelle",
+            "image": "https://picsum.photos/seed/whiplash/500/750",
+            "description": "Um jovem baterista busca se tornar um dos melhores músicos do mundo."
+        },
+        {
+            "id": 37,
+            "title": "La La Land",
+            "year": 2016,
+            "genre": [
+                "Drama",
+                "Romance",
+                "Música"
+            ],
+            "rating": 8.0,
+            "duration": "2h 8min",
+            "director": "Damien Chazelle",
+            "image": "https://picsum.photos/seed/la-la-land/500/750",
+            "description": "Um músico e uma atriz tentam realizar seus sonhos enquanto vivem um romance."
+        },
+        {
+            "id": 38,
+            "title": "Oppenheimer",
+            "year": 2023,
+            "genre": [
+                "Drama",
+                "História"
+            ],
+            "rating": 8.1,
+            "duration": "3h",
+            "director": "Christopher Nolan",
+            "image": "https://picsum.photos/seed/oppenheimer/500/750",
+            "description": "A trajetória do físico J. Robert Oppenheimer e o desenvolvimento da bomba atômica."
+        },
+        {
+            "id": 39,
+            "title": "Top Gun: Maverick",
+            "year": 2022,
+            "genre": [
+                "Ação",
+                "Drama"
+            ],
+            "rating": 8.3,
+            "duration": "2h 11min",
+            "director": "Joseph Kosinski",
+            "image": "https://picsum.photos/seed/top-gun-maverick/500/750",
+            "description": "Maverick retorna para treinar uma nova geração de pilotos de elite."
+        },
+        {
+            "id": 40,
+            "title": "Piratas do Caribe: A Maldição do Pérola Negra",
+            "year": 2003,
+            "genre": [
+                "Aventura",
+                "Fantasia",
+                "Ação"
+            ],
+            "rating": 8.0,
+            "duration": "2h 23min",
+            "director": "Gore Verbinski",
+            "image": "https://picsum.photos/seed/piratas-caribe/500/750",
+            "description": "Jack Sparrow se envolve em uma aventura para recuperar seu navio e enfrentar uma tripulação amaldiçoada."
+        },
+        {
+            "id": 41,
+            "title": "Harry Potter e a Pedra Filosofal",
+            "year": 2001,
+            "genre": [
+                "Fantasia",
+                "Aventura"
+            ],
+            "rating": 7.9,
+            "duration": "2h 32min",
+            "director": "Chris Columbus",
+            "image": "https://picsum.photos/seed/harry-potter/500/750",
+            "description": "Harry Potter descobre que é um bruxo e começa seus estudos em Hogwarts."
+        },
+        {
+            "id": 42,
+            "title": "Jurassic Park",
+            "year": 1993,
+            "genre": [
+                "Aventura",
+                "Ficção Científica",
+                "Thriller"
+            ],
+            "rating": 8.0,
+            "duration": "2h 7min",
+            "director": "Steven Spielberg",
+            "image": "https://picsum.photos/seed/jurassic-park/500/750",
+            "description": "Um parque com dinossauros geneticamente recriados se transforma em um lugar perigoso."
+        },
+        {
+            "id": 43,
+            "title": "De Volta para o Futuro",
+            "year": 1985,
+            "genre": [
+                "Aventura",
+                "Comédia",
+                "Ficção Científica"
+            ],
+            "rating": 8.3,
+            "duration": "1h 56min",
+            "director": "Robert Zemeckis",
+            "image": "https://picsum.photos/seed/de-volta-futuro/500/750",
+            "description": "Um adolescente viaja acidentalmente para o passado em uma máquina do tempo."
+        },
+        {
+            "id": 44,
+            "title": "Shrek",
+            "year": 2001,
+            "genre": [
+                "Animação",
+                "Comédia",
+                "Fantasia"
+            ],
+            "rating": 7.7,
+            "duration": "1h 30min",
+            "director": "Andrew Adamson e Vicky Jenson",
+            "image": "https://picsum.photos/seed/shrek/500/750",
+            "description": "Um ogro parte em uma missão para recuperar seu pântano e acaba encontrando uma princesa."
+        },
+        {
+            "id": 45,
+            "title": "Procurando Nemo",
+            "year": 2003,
+            "genre": [
+                "Animação",
+                "Aventura",
+                "Comédia"
+            ],
+            "rating": 8.2,
+            "duration": "1h 40min",
+            "director": "Andrew Stanton",
+            "image": "https://picsum.photos/seed/procurando-nemo/500/750",
+            "description": "Um peixe-palhaço atravessa o oceano em busca de seu filho desaparecido."
+        },
+        {
+            "id": 46,
+            "title": "O Rei Leão",
+            "year": 1994,
+            "genre": [
+                "Animação",
+                "Drama",
+                "Aventura"
+            ],
+            "rating": 8.5,
+            "duration": "1h 28min",
+            "director": "Roger Allers e Rob Minkoff",
+            "image": "https://picsum.photos/seed/rei-leao/500/750",
+            "description": "Simba precisa enfrentar seu passado e assumir seu lugar como rei."
+        },
+        {
+            "id": 47,
+            "title": "Os Incríveis",
+            "year": 2004,
+            "genre": [
+                "Animação",
+                "Ação",
+                "Comédia"
+            ],
+            "rating": 8.0,
+            "duration": "1h 55min",
+            "director": "Brad Bird",
+            "image": "https://picsum.photos/seed/os-incriveis/500/750",
+            "description": "Uma família de super-heróis precisa voltar à ação para enfrentar uma nova ameaça."
+        },
+        {
+            "id": 48,
+            "title": "Homem-Aranha no Aranhaverso",
+            "year": 2018,
+            "genre": [
+                "Animação",
+                "Ação",
+                "Aventura"
+            ],
+            "rating": 8.4,
+            "duration": "1h 57min",
+            "director": "Bob Persichetti, Peter Ramsey e Rodney Rothman",
+            "image": "https://picsum.photos/seed/aranhaverso/500/750",
+            "description": "Miles Morales descobre que existem várias versões do Homem-Aranha em diferentes universos."
+        },
+        {
+            "id": 49,
+            "title": "Guardiões da Galáxia Vol. 3",
+            "year": 2023,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 8.0,
+            "duration": "2h 30min",
+            "director": "James Gunn",
+            "image": "https://picsum.photos/seed/guardioes-vol3/500/750",
+            "description": "Os Guardiões embarcam em uma missão para salvar Rocket e enfrentam o passado do personagem."
+        },
+        {
+            "id": 50,
+            "title": "Vingadores: Guerra Infinita",
+            "year": 2018,
+            "genre": [
+                "Ação",
+                "Aventura",
+                "Ficção Científica"
+            ],
+            "rating": 8.2,
+            "duration": "2h 29min",
+            "director": "Anthony Russo e Joe Russo",
+            "image": "https://picsum.photos/seed/guerra-infinita/500/750",
+            "description": "Os heróis da Marvel precisam impedir Thanos de reunir todas as Joias do Infinito."
+        }
+    ]
+}

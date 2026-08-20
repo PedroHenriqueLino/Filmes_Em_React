@@ -1,0 +1,76 @@
+.total-card {
+    padding: 20px;
+    color: white;
+
+}
+
+.total-card-image {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    transition: transform 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.total-card-image:hover {
+    transform: scale(1.05);
+}
+
+.total-card-rating {
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.606);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.total-card-title {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+
+        font-weight: 100;
+    }
+
+    span {
+        margin-top: 5px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+.favorite {
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+.favorite.active {
+    color: #fabc01;
+    animation: favoriteBeat 0.3s ease;
+}
+
+@keyframes favoriteBeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

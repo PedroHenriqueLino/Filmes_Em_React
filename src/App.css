@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.header {
+    flex: 1;
+    min-width: 0;
+}

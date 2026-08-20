@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: #0c1620
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+
+    .navbar {
+        width: 350px;
+
+    }
+
+
+}
+
+.header {
+    flex: 1;
+    background-color: #0c1620fa;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+
+    }
+}

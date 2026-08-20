@@ -1,0 +1,156 @@
+.header-content {
+    min-height: 100vh;
+    background-color: #0c1620fa;
+    padding: 30px 0 0 10px;
+}
+
+.top-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.search input {
+    display: flex;
+    width: 0%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 25px 0px 25px 50px;
+    border: none;
+    border: 2px solid rgb(172, 171, 171);
+    background: transparent;
+    color: white;
+}
+
+.search input::placeholder {
+    color: #aaa;
+}
+
+.search svg {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.profile {
+    display: flex;
+    height: 80px;
+    padding-right: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile p {
+    padding-left: 20px;
+    color: white;
+}
+
+.movies-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .nav-content {
+        position: absolute;
+    }
+
+
+    .header-content {
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 574px) {}
+
+.movies-section {
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.movies-header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+
+
+    h2 {
+        font-size: 4rem;
+        color: #f5b700;
+
+
+    }
+
+    p {
+        font-size: 1rem;
+        border-bottom: 2px solid #f5b700;
+        color: white;
+        cursor: pointer;
+        line-height: 1;
+        overflow: hidden;
+    }
+
+    p:hover {
+        border-bottom: 2px solid white;
+    }
+}
+
+.movies-row {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    height: auto;
+
+    scrollbar-width: none;
+}
+
+.Category {
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-left: 5%;
+    }
+}
+
+.btn {
+    display: flex;
+
+    padding: 20px;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        flex-wrap: wrap;
+    }
+}
