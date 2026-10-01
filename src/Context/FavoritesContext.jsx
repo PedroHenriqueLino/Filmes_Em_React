@@ -34,7 +34,7 @@ export const FavoritesContextProvider = ({ children }) => {
 
     const getFavoriteMovie = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/movies")
+            const res = await axios.get("https://filmes-em-react.onrender.com/movies")
 
             const movies = res.data.filter(movie =>
                 favorites.includes(movie.id)
