@@ -50,9 +50,7 @@ const router = createBrowserRouter([
       }
     ]
   }
-], {
-  basename: '/Filmes-em-React'
-});
+]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
