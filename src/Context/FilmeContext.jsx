@@ -10,7 +10,7 @@ export const FilmeContextProvider = ({ children }) => {
 
     const getMovie = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/movies")
+            const res = await axios.get("https://filmes-em-react.onrender.com/movies")
 
             setMovie(res.data)
 
